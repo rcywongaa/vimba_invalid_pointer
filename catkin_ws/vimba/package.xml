@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>vimba</name>
+  <version>0.0.0</version>
+  <description>The vimba package</description>
+
+  <maintainer email="allied_vision@todo.com">Allied Vision</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+
+</package>

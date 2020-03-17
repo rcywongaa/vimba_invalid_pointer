@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="tf2_ros" type="static_transform_publisher" name="camera_tf" args="0 0 0 -1.570796 0 -1.570796 base_link camera1" />
+
+    <node pkg="camera" type="camera_node" name="image_publisher" output="screen"/>
+</launch>
