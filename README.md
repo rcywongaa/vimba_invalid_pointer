@@ -20,9 +20,8 @@ roslaunch camera main.launch
 
 # Reproduce Bug
 1. Edit `catkin_ws/camera/src/node.cpp`
-1. Uncomment lines
+1. Uncomment line
    ```
        //ros::init(argc, argv, "camera");
-       //ros::NodeHandle nh;
    ```
 1. Rebuild and launch
